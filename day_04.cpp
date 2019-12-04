@@ -25,8 +25,8 @@ bool part1(int number){
     for(int i = 0; i < 6; i++) {
         if(i < 5){
             if(digits[i] < digits[i+1]) return false;
+            if(digits[i] == digits[i+1]) sameDigits = true;
         }
-        if(digits[i] == digits[i+1]) sameDigits = true;
     }
     if (sameDigits == false) {
         return false;
@@ -52,8 +52,8 @@ bool part2(int number){
     for(int i = 0; i < 6; i++) {
         if(i < 5){
             if(digits[i] < digits[i+1]) return false;
+            if(digits[i] == digits[i+1]) sameDigits = true;
         }
-        if(digits[i] == digits[i+1]) sameDigits = true;
     }
     if (sameDigits == false) {
         return false;
