@@ -40,8 +40,7 @@ long diagnosticCode(int input){
             const int C = (opcode / 100) % 10;
             const int B = (opcode / 1000) % 10;
             const int A = (opcode / 10000) % 10;
-            
-            //first task up to DE == 4;
+           
             
             if (DE == 1) {
                 
